@@ -55,13 +55,13 @@ class SignupAddressFragment : Fragment(), SignupContract.View {
                 it.phoneNumber = phone
             }
             if (phone.isNullOrEmpty()) {
-                etPhoneNumber.error = "Silahkan masukkan nomor phone"
+                etPhoneNumber.error = "Silahkan Masukkan Nomor Phone"
                 etPhoneNumber.requestFocus()
             } else if (address.isNullOrEmpty()) {
-                etAddress.error = "Silahkan masukkan address"
+                etAddress.error = "Silahkan Masukkan Address"
                 etAddress.requestFocus()
             } else if (houseNumber.isNullOrEmpty()) {
-                etHouseNumber.error = "Silahkan masukkan house number"
+                etHouseNumber.error = "Silahkan Masukkan House Number"
                 etHouseNumber.requestFocus()
             } else if (city.isNullOrEmpty()) {
                 etCity.error = "Silahkan masukkan city"
