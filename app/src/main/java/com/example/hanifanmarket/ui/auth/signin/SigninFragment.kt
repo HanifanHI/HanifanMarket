@@ -52,10 +52,10 @@ class SigninFragment : Fragment(), SigninContract.View {
             var email = etEmail.text.toString()
             var password = etPassword.text.toString()
             if (email.isNullOrEmpty()) {
-                etEmail.error = "Silahkan masukkan email Anda"
+                etEmail.error = "Silahkan Masukkan Email Anda"
                 etEmail.requestFocus()
             } else if (password.isNullOrEmpty()) {
-                etPassword.error = "Silahkan masukkan password Anda"
+                etPassword.error = "Silahkan Masukkan Password Anda"
                 etPassword.requestFocus()
             } else {
                 presenter.subimtLogin(email, password)
