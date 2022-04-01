@@ -78,8 +78,8 @@ class SigninFragment : Fragment(), SigninContract.View {
     }
 
     private fun initDummy() {
-        etEmail.setText("jennie.kim@blackpink.com")
-        etPassword.setText("12345678")
+        etEmail.setText("hanifan@gmail.com")
+        etPassword.setText("123456789")
     }
 
     private fun initView() {
